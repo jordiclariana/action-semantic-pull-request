@@ -165,6 +165,7 @@ module.exports = async function run() {
       throw validationError;
     }
   } catch (error) {
+    console.trace();
     core.setFailed(error.message);
   }
 };
