@@ -37000,7 +37000,7 @@ module.exports = async function run() {
         repo,
         sha: pullRequest.head.sha,
         state: newStatus,
-        target_url: 'https://github.com/amannn/action-semantic-pull-request',
+        target_url: 'https://github.com/jordiclariana/action-semantic-pull-request',
         description: isWip
           ? 'This PR is marked with "[WIP]".'
           : validationError
